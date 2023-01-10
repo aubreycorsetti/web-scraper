@@ -41,7 +41,7 @@
 • Your repo is now ready to run the Capital Finder program
 
 • Run the code using 
-> python modules/scraper.py
+> python web_scraper/scraper.py
 
 • You will be prompted for a search URL in the command line
 > Enter a Wikipedia URL into the CLI and hit enter
