@@ -1,9 +1,10 @@
-import playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright
 from parser import parse
+
 
 def main():
     with sync_playwright() as p:
-        browser = p.cromium.launch(headless=False, slow_mo=1000)
+        browser = p.chromium.launch(headless=False, slow_mo=1000)
         page = browser.new_page()
         page.goto("https://testing-www.codefellows.org")
 
